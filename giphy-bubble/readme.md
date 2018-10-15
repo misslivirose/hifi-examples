@@ -1,7 +1,7 @@
 # Giphy Mood App for High Fidelity
 This is an application made for High Fidelity using the GIPHY API. It is available in the High Fidelity Marketplace for download, or you can modify the source code in this example to create your own version of the application. If you decide to modify this code directly to create your own app, you will need an API key from Giphy, which you can get at the [Giphy Developer Site](https://developers.giphy.com/). You can view a video of the application in action on [Youtube](https://youtu.be/mSvPA-qRNR0).
 
-![A thought bubble with a gif playing](images/header.png)
+![A thought bubble with a gif playing](https://github.com/misslivirose/hifi-examples/blob/master/giphy-bubble/images/header.PNG)
 
 # How It Works
 In High Fidelity, the main user interface is displayed through an in-world tablet that only you can see on your client. In desktop mode, these windows appear as a heads-up display, and you can create custom applications that run on the tablet that can be made to interact with the elements in the world around you. You can read more about the tablet documentation and creating your first application [on the High Fidelity docs site](https://docs.highfidelity.com/learn-with-us/create-a-tablet-app). 
@@ -36,7 +36,7 @@ Embedded scripts in your application's UI communicate with the application Inter
 
 In the HTML side of this application, we have our UI, which is mostly comprised of buttons that provide a mechanic for generating a specific GIF to display. When a gif button is pressed, the preview appears below the buttons and the 'Show' button will display the gif that will appear in your thought bubble. 
 
-![The tablet UI for the giphy thought bubble app](images/UI.png)
+![The tablet UI for the giphy thought bubble app](https://github.com/misslivirose/hifi-examples/blob/master/giphy-bubble/images/ui.PNG)
 
 Each of those buttons, when pressed, emits a specific signal through the `EventBridge.emitWebEvent` API call. You can format specific JSON instructions that your application logic layer will use to differentiate between. As an example, the code that handles selecting a gif category (which are all buttons with `class = 'white'`styling) emits an event like so: 
 
