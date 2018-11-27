@@ -41,7 +41,7 @@
                 "y": -1.52587890625e-05,
                 "z": -1.52587890625e-05
             },
-            "serverScripts": "https://hifi-content.s3-us-west-1.amazonaws.com/liv/dev/PhotoFrame/digitalFrame.js",
+            "serverScripts": "https://digital-photo-frame.glitch.me/digitalFrame.js",
             "shapeType": "box",
             "textures": "{\"tex.picture\":\"https://hifi-content.s3-us-west-1.amazonaws.com/liv/Production/DemoPhotos/image1.jpg\"}",
             "type": "Model",
